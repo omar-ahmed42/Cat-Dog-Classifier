@@ -2,8 +2,9 @@ public class Neuron {
 
     private double error;
     private double output;
-    private double[] weights;
+    private double[] weights; //weights[0]
 
+    public Neuron(){}
     public Neuron(double[] weights) {
         this.weights = weights;
     }

@@ -3,6 +3,7 @@ public class FeedForwardLayer {
     private int NEURONS_SIZE;
     private ActivationFunction activationFunction;
     private Neuron[] neurons;
+
     private FeedForwardLayer next;
     private FeedForwardLayer previous;
 
